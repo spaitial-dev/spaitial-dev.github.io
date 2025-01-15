@@ -1,5 +1,6 @@
 import React from 'react';
 import Particles from '../components/Particles';
+import { ChevronDown } from 'lucide-react';
 
 const Index = () => {
   return (
@@ -40,6 +41,14 @@ const Index = () => {
               />
             </div>
           </div>
+        </div>
+        
+        {/* Scroll Indicator */}
+        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+          <a href="#jobs" className="flex flex-col items-center text-gray-400 hover:text-primary transition-colors">
+            <span className="text-sm mb-2">Scroll to explore</span>
+            <ChevronDown size={24} />
+          </a>
         </div>
       </section>
 
