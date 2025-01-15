@@ -25,8 +25,7 @@ const Index = () => {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-fade-up">
               <h2 className="text-5xl md:text-6xl font-bold leading-tight">
-                Stealth startup building{" "}
-                <span className="text-primary">3D foundational models</span>
+                <span className="text-secondary">Building the 3D foundational model</span>
               </h2>
               <p className="text-xl text-gray-300">
                 Revolutionizing the future of 3D content generation and understanding
