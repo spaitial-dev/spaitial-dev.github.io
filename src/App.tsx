@@ -13,7 +13,7 @@ const App = () => (
       <Toaster />
       <Sonner />
       <BrowserRouter>
-        <Routes>
+        <Routes> 
           <Route path="/" element={<Index />} />
         </Routes>
       </BrowserRouter>
