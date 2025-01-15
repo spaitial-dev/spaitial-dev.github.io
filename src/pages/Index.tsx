@@ -32,11 +32,11 @@ const Index = () => {
                 Revolutionizing the future of 3D content generation and understanding
               </p>
             </div>
-            <div className="animate-float">
+            <div className="animate-float w-full max-w-2xl mx-auto">
               <img
                 src="/lovable-uploads/eda227b1-c21f-47b9-8a64-0ec236dbdff2.png"
                 alt="3D Room Visualization"
-                className="rounded-lg shadow-2xl"
+                className="rounded-lg shadow-2xl w-full h-auto"
               />
             </div>
           </div>
