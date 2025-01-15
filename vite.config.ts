@@ -19,5 +19,5 @@ export default defineConfig(({ mode }) => ({
       "@": path.resolve(__dirname, "./src"),
     },
   },
-  base: "/spaitial-web-staging/"
+  // base: "/spaitial-web-staging/"
 }));
