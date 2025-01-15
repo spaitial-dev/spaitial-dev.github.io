@@ -12,8 +12,7 @@ const App = () => (
     <TooltipProvider>
       <Toaster />
       <Sonner />
-      {/* <BrowserRouter basename="spaitial-web-staging"> */}
-      <BrowserRouter basename="spaitial-web-staging">
+      <BrowserRouter>
         <Routes>
           <Route path="/" element={<Index />} />
         </Routes>
