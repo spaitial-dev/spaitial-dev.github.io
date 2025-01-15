@@ -34,7 +34,7 @@ const Index = () => {
             </div>
             <div className="animate-float w-full max-w-2xl mx-auto">
               <img
-                src="/lovable-uploads/eda227b1-c21f-47b9-8a64-0ec236dbdff2.png"
+                src="theme.jpg"
                 alt="3D Room Visualization"
                 className="rounded-lg shadow-2xl w-full h-auto"
               />
