@@ -14,19 +14,18 @@ const Index = () => {
             <h1 className="text-2xl font-bold text-white">SpAItial</h1>
             <div className="space-x-6">
               <a href="#about" className="hover:text-primary transition-colors">About</a>
-              <a href="#jobs" className="hover:text-primary transition-colors">Jobs</a>
             </div>
           </div>
         </div>
       </nav>
 
       {/* Hero Section */}
-      <section className="relative min-h-screen flex items-center">
-        <div className="container mx-auto px-6 py-24">
+      <section className="relative h-[85vh] flex items-center">
+        <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-fade-up">
               <h2 className="text-5xl md:text-6xl font-bold leading-tight">
-                Stealth startup building{" "}
+                We are building{" "}
                 <span className="text-primary">3D foundational models</span>
               </h2>
               <p className="text-xl text-gray-300">
@@ -42,44 +41,14 @@ const Index = () => {
             </div>
           </div>
         </div>
-        
-        {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <a href="#jobs" className="flex flex-col items-center text-gray-400 hover:text-primary transition-colors">
-            <span className="text-sm mb-2">Scroll to explore</span>
-            <ChevronDown size={24} />
-          </a>
-        </div>
       </section>
 
-      {/* Jobs Section */}
-      <section id="jobs" className="relative py-24 bg-black/30">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold mb-12 text-center">Open Positions</h2>
-          <div className="grid md:grid-cols-2 gap-8 max-w-3xl mx-auto">
-            <a
-              href="#"
-              className="group p-6 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
-            >
-              <h3 className="text-xl font-semibold mb-2 text-primary group-hover:text-white transition-colors">
-                Senior ML Engineer
-              </h3>
-              <p className="text-gray-400">
-                Join us in building the next generation of 3D AI models
-              </p>
-            </a>
-            <a
-              href="#"
-              className="group p-6 rounded-lg bg-white/5 hover:bg-white/10 transition-colors"
-            >
-              <h3 className="text-xl font-semibold mb-2 text-secondary group-hover:text-white transition-colors">
-                3D Graphics Engineer
-              </h3>
-              <p className="text-gray-400">
-                Help us push the boundaries of 3D visualization
-              </p>
-            </a>
-          </div>
+      {/* Contact Section - Added shadow to top border */}
+      <section className="relative py-12 bg-black/30 shadow-[0_-4px_6px_-1px_rgba(0,0,0,0.3)]">
+        <div className="container mx-auto px-6 text-center">
+          <p className="text-xl text-gray-300">
+            Interested? Reach out to <a href="mailto:info@spaitial.ai" className="text-primary hover:text-primary/80 transition-colors">info@spaitial.ai</a>
+          </p>
         </div>
       </section>
     </div>
