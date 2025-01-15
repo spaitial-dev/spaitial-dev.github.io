@@ -1,8 +1,18 @@
-import React from 'react';
+import React, { useState, useEffect } from 'react';
 import Particles from '../components/Particles';
 import { ChevronDown } from 'lucide-react';
 
 const Index = () => {
+  const [showScroll, setShowScroll] = useState(false);
+
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setShowScroll(true);
+    }, 2000);
+
+    return () => clearTimeout(timer);
+  }, []);
+
   return (
     <div className="min-h-screen bg-gradient-to-b from-gray-900 to-gray-800 text-white relative overflow-hidden">
       <Particles />
@@ -11,7 +21,7 @@ const Index = () => {
       <nav className="absolute top-0 left-0 right-0 z-10">
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
-            <h1 className="text-2xl font-bold text-white">SpAItial</h1>
+            <h1 className="text-2xl font-bold text-white">Sp<span className="text-primary">AI</span>tial</h1>
             <div className="space-x-6">
               <a href="#about" className="hover:text-primary transition-colors">About</a>
               <a href="#jobs" className="hover:text-primary transition-colors">Jobs</a>
@@ -44,12 +54,14 @@ const Index = () => {
         </div>
         
         {/* Scroll Indicator */}
-        <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
-          <a href="#jobs" className="flex flex-col items-center text-gray-400 hover:text-primary transition-colors">
-            <span className="text-sm mb-2">Scroll to explore</span>
-            <ChevronDown size={24} />
-          </a>
-        </div>
+        {showScroll && (
+          <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2 animate-bounce">
+            <a href="#jobs" className="flex flex-col items-center text-gray-400 hover:text-primary transition-colors">
+              <span className="text-sm mb-2">Scroll to explore</span>
+              <ChevronDown size={24} />
+            </a>
+          </div>
+        )}
       </section>
 
       {/* Jobs Section */}
