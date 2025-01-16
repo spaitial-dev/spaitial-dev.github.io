@@ -22,9 +22,6 @@ const Index = () => {
         <div className="container mx-auto px-6 py-4">
           <div className="flex items-center justify-between">
             <h1 className="text-2xl font-bold text-white">Sp<span className="text-primary">AI</span>tial</h1>
-            <div className="space-x-6">
-              <a href="#about" className="hover:text-primary transition-colors">About</a>
-            </div>
           </div>
         </div>
       </nav>
@@ -42,7 +39,7 @@ const Index = () => {
                 Revolutionizing the future of 3D content generation and understanding
               </p>
             </div>
-            <div className="animate-float w-full max-w-2xl mx-auto">
+            <div className="animate-float w-full max-w-3xl mx-auto mt-8 md:mt-0">
               <img
                 src="theme.jpg"
                 alt="3D Room Visualization"
