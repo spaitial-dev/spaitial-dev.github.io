@@ -27,7 +27,7 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative h-[85vh] flex items-center pt-16 md:pt-0">
+      <section className="relative h-[85vh] flex items-center pt-8 md:pt-0">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-fade-up">
