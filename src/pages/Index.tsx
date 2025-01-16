@@ -27,11 +27,11 @@ const Index = () => {
       </nav>
 
       {/* Hero Section */}
-      <section className="relative h-[85vh] flex items-center">
+      <section className="relative h-[85vh] flex items-center pt-16 md:pt-0">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div className="space-y-8 animate-fade-up">
-              <h2 className="text-5xl md:text-6xl font-bold leading-tight">
+              <h2 className="text-4xl sm:text-5xl md:text-6xl font-bold leading-tight">
                 We are building{" "}
                 <span className="text-primary">3D foundational models</span>
               </h2>
@@ -39,7 +39,7 @@ const Index = () => {
                 Revolutionizing the future of 3D content generation and understanding
               </p>
             </div>
-            <div className="animate-float w-full max-w-3xl mx-auto mt-8 md:mt-0">
+            <div className="animate-float-slow w-full max-w-3xl mx-auto mt-8 md:mt-0">
               <img
                 src="theme.jpg"
                 alt="3D Room Visualization"
