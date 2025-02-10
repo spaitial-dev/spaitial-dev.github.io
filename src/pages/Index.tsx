@@ -58,25 +58,29 @@ const Index = () => {
             {/* ML Research Scientist */}
             <div className="bg-gray-800/50 rounded-lg p-6 hover:bg-gray-800/70 transition-colors">
               <h3 className="text-2xl font-bold mb-4">Research Scientist</h3>
-              <p className="text-gray-300 mb-4">Prototype and build the next generation of 3D foundational models.</p>
+              <p className="text-gray-300 mb-4">Prototype and build 3D foundational models.</p>
               <a href="https://jobs.ashbyhq.com/spaitial/6993728b-4901-453e-848c-1ee2d5054acd" className="text-primary hover:text-primary/80 transition-colors">Apply Now →</a>
             </div>
 
             {/* Senior Software Engineer */}
             <div className="bg-gray-800/50 rounded-lg p-6 hover:bg-gray-800/70 transition-colors">
               <h3 className="text-2xl font-bold mb-4">ML Infrastructure Engineer</h3>
-
-
-
-              <p className="text-gray-300 mb-4">Develop large-scale training infra for 3D foundational models.</p>
+              <p className="text-gray-300 mb-4">Develop training infra for foundational models.</p>
               <a href="https://jobs.ashbyhq.com/spaitial/1cf5f91a-9f66-48a8-aaee-18a18349785d" className="text-primary hover:text-primary/80 transition-colors">Apply Now →</a>
             </div>
 
-            {/* 3D Graphics Engineer */}
+            {/* 3D Research Engineer */}
             <div className="bg-gray-800/50 rounded-lg p-6 hover:bg-gray-800/70 transition-colors">
-              <h3 className="text-2xl font-bold mb-4">Research Engineer</h3>
-              <p className="text-gray-300 mb-4">Develop and optimize 3D ML data pipelines.</p>
+              <h3 className="text-2xl font-bold mb-4">3D Research Engineer</h3>
+              <p className="text-gray-300 mb-4">Build 3D ML infra for generative models.</p>
               <a href="https://jobs.ashbyhq.com/spaitial/e3eaeee7-27db-4fa9-9e72-505d24457603" className="text-primary hover:text-primary/80 transition-colors">Apply Now →</a>
+            </div>
+
+            {/* ML Research Engineer */}
+            <div className="bg-gray-800/50 rounded-lg p-6 hover:bg-gray-800/70 transition-colors">
+              <h3 className="text-2xl font-bold mb-4">ML Research Engineer</h3>
+              <p className="text-gray-300 mb-4">Develop and optimize next-gen generative models.</p>
+              <a href="https://jobs.ashbyhq.com/spaitial/51cf7f45-fd60-4347-a127-732386f51445" className="text-primary hover:text-primary/80 transition-colors">Apply Now →</a>
             </div>
           </div>
         </div>
